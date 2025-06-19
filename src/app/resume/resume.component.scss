@@ -1,5 +1,6 @@
 .title {
     font-size: 30px;
+    font-weight: lighter;
 }
 .experience-list {
     font-size: 17px;
@@ -15,3 +16,7 @@
 ul li{
     padding-bottom: 10px;
 }
+
+li::marker {
+    color:pink;
+  }
