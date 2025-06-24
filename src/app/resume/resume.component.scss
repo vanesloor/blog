@@ -2,9 +2,11 @@
     font-size: 30px;
     font-weight: lighter;
 }
+
 .experience-list {
     font-size: 17px;
 }
+
 .job-title{
     font-size: 25px;
 }
@@ -13,10 +15,56 @@
     font-size: 20px;
 }
 
-ul li{
+ul.skills-list li{
+    padding-bottom: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul li {
     padding-bottom: 10px;
 }
 
-li::marker {
-    color:pink;
-  }
+li::marker{
+    color: pink;
+}
+
+
+.intro-text {
+    font-size: 18px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-left: 10px solid pink;
+    padding-left: 10px;
+}
+
+.universidad {
+    font-size: 20px;
+}
+
+.bachelor {
+    font-size: 20px;
+}
+
+.dot{
+    color: pink;
+}
+
+.big-title {
+    font-size: 5rem;
+    font-weight: 800;
+    padding-left: 5rem;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+}
+
+.text-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.experience-title{
+    border-left: 10px solid pink;
+    padding-left: 10px;
+}
+

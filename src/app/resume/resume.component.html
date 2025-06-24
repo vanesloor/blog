@@ -1,77 +1,69 @@
+
 <div class="grid">
-    <div class="col-12 pl-5 pr-5">
-        <h3 class="title">About Me</h3>
-        <label>
-            Hey! I'm Vanessa, a software engineer who loves building clean, scalable apps. 
-            Lately, I’ve been working with C#, Angular, SQL, and Cosmos DB on cloud-based systems 
-            built with microservices, mostly in the automotive space.
-        </label>
+    <div class="col-12 big-title">
+        About Me<label class="dot">.</label>
+    </div>
+</div>
+<div class="grid">
+    <div class="col-12">
+        <p class="intro-text">
+            Hey! I'm Vanessa, a software engineer with 5 years  of experience building full stack web 
+            applications, primarily using Angular, C# and SQL Server. Most Recently I worked at BASF 
+            where I contributed to cloud-based applications used in the automotive repair industry. 
+            I am now looking for new opportunities to leverage my skills in a dynamic team
+            environment. I am passionate about creating efficient, user-friendly applications and
+            continuously improving my skills. I thrive in collaborative settings and enjoy tackling
+            complex challenges. 
+        </p>
         <br>
     </div>
 </div>
-<div class="grid">
-    <div class="col-12 p-5">
-        <h3 class="title">Education</h3>
-        <label>Universidad de Guadalajara</label>
-        <br>
-        <label>Bachelor's in Computer Engineering</label>
+<div class="grid text-container">
+    <div class="col-6">
+        <h3 class="title">Education </h3>
+    </div>
+    <div class="col-6">
+        <p class="universidad">Universidad de Guadalajara | 2014 - 2018</p>
+        <p class="bachelor">Bachelor's in Computer Engineering</p>
     </div>
 </div>
+
 <div class="grid">
-    <div class="col-12 pt-5 pr-5 pl-5">
-        <h3 class="title">Skills</h3>
-    </div>
-</div>
-<div class="grid">
-    <div class="col-6 pl-5 pr-5">
-        <ul>
-            <li>Angular</li>
-            <li>.NET Core</li>
-            <li>Cosmos DB</li>
-            <li>SQL Server</li>
-            <li>Azure Service Bus</li>
-            <li>HTML/CSS/JavaScript</li>
-            <li>RESTful APIs</li>
-            <li>Agile Methodologies</li>
-            <li>Unit Testing (xUnit, Jasmine, Karma)</li>
-            <li>Responsive Design</li>
-            <li>Version Control (Git)</li>
-            <li>Microservices Architecture</li>
-            <li>Domain Driven Design</li>
-        </ul>
-    </div>
-    <div class="col-6 pl-5 pr-5">
-       <ul>
-            <li>Problem Solving</li>
-            <li>Collaboration</li>
-            <li>Communication</li>
-            <li>Time Management</li>
-            <li>Attention to Detail</li>
-            <li>Adaptability</li>
-            <li>Critical Thinking</li>
-            <li>Customer Focus</li>
-            <li>Mentoring and Coaching</li>
-            <li>Continuous Learning</li>
-        </ul>
+    <div class="col-12 big-title">
+        Skills<label class="dot">.</label>
     </div>
 </div>
 <br>
-<br>
-<div class="grid">
-    <div class="col-12 pl-5 pr-5">
-        <label class="title">Experience</label>
+<div class="grid text-container">
+    <div class="col-12 flex">
+        <div *ngFor="let skill of skills">
+            <p-chip class="mr-2" label="{{skill.name }}" image="{{skill.image}}"/>
+        </div>
+    </div>
+    <div class="col-12 flex">
+        <div *ngFor="let skill of skills2">
+            <p-chip class="mr-2" label="{{skill.name }}" image="{{skill.image}}"/>
+        </div>
     </div>
 </div>
 <div class="grid">
-    <div class="col-3 p-5">
-        <div class="job-title">Software Developer</div>
-        <br>
-        <label class="company">BASF</label> 
-        <br>
-        <br>
-        <label>2020 - 2025</label>
-        </div>    
-    <div class="col-9 p-5" >
+    <div class="col-12 big-title">
+        Experience<label class="dot">.</label>
+    </div>
+</div>
+<br>
+<div class="grid text-container">
+    <div class="col-3">
+        <div class="experience-title">
+            <div class="job-title">Software Developer</div>
+            <br>
+            <label class="company">BASF</label> 
+            <br>
+            <br>
+            <label>2020 - 2025</label>
+        </div>
+    </div>    
+    <div class="col-9" >
         <ul class="experience-list">
             <li> Collaborated closely with product owners and cross-functional 
                 teams in an Agile environment to design, develop, and deliver 
@@ -117,16 +109,18 @@
         </ul>
     </div>
 </div>
-<div class="grid">
-    <div class="col-3 p-5">
-        <div class="job-title">Web Developer</div>
-        <br>
-        <label class="company">Uwipes</label> 
-        <br>
-        <br>
-        <label>2018 - 2019</label>
+<div class="grid text-container">
+    <div class="col-3">
+        <div class="experience-title">
+            <div class="job-title">Web Developer</div>
+            <br>
+            <label class="company">Uwipes</label> 
+            <br>
+            <br>
+            <label>2018 - 2019</label>
+        </div>
     </div>
-    <div class="col-9 p-5">
+    <div class="col-9">
         <ul class="experience-list">
             <li>
                 Developed and maintained a full-stack eCommerce platform for 
@@ -136,3 +130,9 @@
         </ul>
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

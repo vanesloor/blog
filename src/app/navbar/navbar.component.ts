@@ -25,7 +25,8 @@ title = 'blog';
             },
             {
                 label: 'Contact',
-                icon: 'pi pi-envelope'
+                icon: 'pi pi-envelope',
+                routerLink: '/contact'
             }
         ]
     }
