@@ -15,17 +15,14 @@ title = 'blog';
         this.items = [
             {
                 label: 'Home',
-                icon: 'pi pi-home',
                 routerLink: '/landing-page'
             },
             {
                 label: 'Resume',
-                icon: 'pi pi-star',
                 routerLink: '/resume'
             },
             {
                 label: 'Contact',
-                icon: 'pi pi-envelope',
                 routerLink: '/contact'
             }
         ]

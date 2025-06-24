@@ -12,20 +12,28 @@ import { MenubarModule } from 'primeng/menubar';
 import { AvatarModule } from 'primeng/avatar';
 import { ButtonModule } from 'primeng/button';
 import { ResumeComponent } from './resume/resume.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ContactComponent } from './contact/contact.component';
+import { CarouselModule } from 'primeng/carousel';
+import { ChipModule } from 'primeng/chip';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LandingPageComponent,
-    ResumeComponent
+    ResumeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MenubarModule,
     AvatarModule,
-    ButtonModule
+    ButtonModule,
+    HttpClientModule,
+    CarouselModule,
+    ChipModule
   ],
   providers: [
     provideClientHydration(withEventReplay()),
