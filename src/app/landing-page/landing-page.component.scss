@@ -19,6 +19,20 @@
 
 .circle {
     border-radius: 50%;
-    border: 4px solid pink;
+    border: 10px solid pink;
     padding:20px 15px 15px 25px;
+}
+
+.button{
+    background-color: pink;
+    border-color: pink;
+}
+
+.button:hover{
+    background-color: pink;
+    border-color: pink;
+}
+
+.intro{
+    width: 400px;
 }
